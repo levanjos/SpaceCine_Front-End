@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Leticia Vitoria M. dos Anjos">
-    <meta name="description" content="Página sobre cinema, desenvolvida no curso de LIMA do SENAI. O objetivo é aprender a construir página web">
+    <meta name="description"
+        content="Página sobre cinema, desenvolvida no curso de LIMA do SENAI. O objetivo é aprender a construir página web">
     <meta name="keywords" content="HTML, CSS, Filmes, cinema">
     <title>SpaceCine</title>
     <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+
     <!-- ----- Cabeçalho ----- -->
-     <header>
+    <header>
 
         <!-- Grupo 1 -->
-         <img src="./src/assets/images/logo.svg" alt="logo SpaceCine">
+        <img src="./src/assets/images/logo.svg" alt="logo SpaceCine">
 
         <!-- Grupo 2 -->
         <nav>
@@ -32,22 +37,47 @@
         </nav>
 
         <!-- Grupo 3 -->
-         <nav>
+        <nav>
             <a href="" class="btnLogin">Login</a>
-         </nav>
+        </nav>
 
-     </header>
+    </header>
 
-     <!-- ------- MAIN ------- -->
-      <main>
+    <!-- ------- MAIN ------- -->
+    <main>
         <h1>Vingadores <span class="text-highlight"> Ultimato</span></h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since 1966,</p>
         <nav>
             <a href="" class="btnPrimary">Comprar agora</a>
             <a href="" class="btnSecondary">Ver mais</a>
         </nav>
-      </main>
-      
-    
+    </main>
+
+    <!-- ------- SECTION ------- -->
+    <section class="section-showing">
+
+        <div class="showing-content">
+            <span>Agora no spacecine</span>
+            <h2>Filnes em Cartaz</h2>
+        </div>
+
+        <div class="showing-container-movies">
+            <div class="card-movies">
+                <img src="./src/assets/images/ptodososgarotos.svg" alt="Filme: Para todos os garotos que já amei" loading="lazy">
+                <h3>Para todos os garotos...</h3>
+                <div class="movies-details">
+                    <span>Romace - 1h 40m</span>
+                    <div class="movie-avaliation">
+                        <img src="./src/assets/images/iconstar.svg" alt="Estrela" loading="lazy">
+                        <span>4.9</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
 </body>
+
 </html>
